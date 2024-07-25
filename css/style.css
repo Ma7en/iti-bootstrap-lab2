@@ -1,0 +1,32 @@
+/*  
+--> colors 
+main color : #c8102e
+yellow color: #ffa500
+nav prodect : #3f3e40
+background producets : #e9e9e9
+secondary btn : #827c7c 
+
+*/
+
+/* -- navbar -- */
+.navbar .button-order button {
+    transition: var(--main-transition);
+}
+
+.navbar .button-order button:hover {
+    transform: scale(1.1);
+}
+
+/* -- hero -- */
+.hero .navbar-nav {
+    scrollbar-width: none;
+}
+
+.hero .navbar-nav::-webkit-scrollbar {
+    display: none;
+}
+
+/* -- product -- */
+/* .product .title h3 {
+    color: var(--main-color);
+} */

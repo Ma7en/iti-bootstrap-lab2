@@ -1,0 +1,85 @@
+/* G */
+/* :root {
+    --main-color: #f89422;
+    --red-color: #ee4632;
+    --blue-color: #20c4f5;
+    --main-transition: all 0.5s;
+} */
+/* 
+--> colors 
+main color : #c8102e
+yellow color: #ffa500
+nav prodect : #3f3e40
+background producets : #e9e9e9
+secondary btn : #827c7c
+
+*/
+:root {
+    --main-color: #c8102e;
+    --second-color: #ffa500;
+    --third-color: #827c7c;
+    --bg-color-1: #e9e9e9;
+    --bg-color-2: #3f3e40;
+    --main-transition: all 0.5s;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+    border: none;
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+svg {
+    width: 20px;
+}
